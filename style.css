@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    background-color: #faf8ef;
+}
+h1{
+    font-size:60px;
+    font-weight: bold;
+    color:#665d53;
+    margin:0;
+    margin-top:20px;
+}
+h2{
+    font-weight: 400;
+    color:#665d53;
+}
+hr{
+    width:500px;
+}
+#gameOver button {
+    border: 0;
+    outline: 0;
+    margin: 30px;
+    color: #fff;
+    font-size: 2em;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: #bbada0;
+    transition: all 0.2s ease;
+  }
+  button:hover {
+    transform: scale(1.1);
+  }
+#board{
+    width:400px;
+    height:400px;
+    background-color: #cdc1b5;
+    border:6px solid#bbada0;
+    margin:0 auto;
+    display:flex;
+    flex-wrap:wrap;
+    border-radius: 5px;
+
+}
+.tile{
+    width: 90px;
+    height: 90px;
+    border:5px solid #bbada0;
+    font-size:35px;
+    font-weight: bold;;
+    display:flex;
+    justify-content: center;
+    align-items:center ;
+} 
+
+/* tile colors */
+.tile2{
+    background-color: #eee4da;
+    color: #727371;
+}
+.tile4{
+    background-color: #ece0ca;
+    color: #727371;
+}
+.tile8{
+    background-color: #f4b17a;
+    color: white;
+}
+.tile16{
+    background-color: #f59576;
+    color:white;
+}
+.tile32{
+    background-color: #f57c5f;
+    color:white;
+}
+.tile64{
+    background-color: #f65d3b;
+    color:white;
+}
+.tile128{
+    background-color: #edce71;
+    color:white;
+}
+.tile256{
+    background-color: #edcc63;
+    color:white;
+}
+.tile512{
+    background-color: #edc651;
+    color:white;
+}
+.tile1024{
+    background-color: #eec744;
+    color:white;
+}
+.tile2048{
+    background-color: #ecc230;
+    color:white;
+}
+.tile4096{
+    background-color: #fe3d3d;
+    color:white;
+}
+.tile8192{
+    background-color: #ff2020;
+    color:white;
+}
+.overtext{
+    background-color: black;
+    color:white;
+    font-weight: 700;
+}
